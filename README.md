@@ -24,7 +24,7 @@ DATABASE_URL="postgresql://docker:docker@localhost:5432/polls?schema=public"
 - Continue com os seguintes comandos e a aplicação estará pronta para uso:
 
 ```
-npm prisma migrate dev
+npx prisma migrate dev
 npm run dev
 ```
 <br>
